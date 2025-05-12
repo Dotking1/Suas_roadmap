@@ -1,0 +1,1240 @@
+/* Media Queries
+-------------------------------------------------------------- */
+@media only screen and (max-width: 1800px) {
+  .tf-slider-item {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .tf-slider-item .content-inner {
+    margin-right: 30px;
+  }
+  .tf-slider-item .image img {
+    width: 45%;
+  }
+  .tf-slider-item .image img:last-child {
+    display: none;
+  }
+  .tf-slider-item.style-3 {
+    padding-top: 40px;
+  }
+  .tf-slider-item.style-3 .content-inner {
+    padding-top: 0;
+    margin-right: -35px;
+  }
+  .tf-slider-item.style-3 .image img {
+    padding-top: 100px;
+    width: 100%;
+  }
+  .tf-slider-item.style-3 .image .img-1 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1450px) {
+  header #site-header-inner #site-logo {
+    /* max-width: 20px; */
+    margin-right: 30px;
+  }
+  #main-nav > ul > li {
+    padding-right: 15px;
+  }
+  .sign-in-form {
+    width: unset;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .sidebar.sidebar-collection,
+  .footer .widget.widget-infor {
+    padding-right: 0%;
+  }
+  .footer .widget.widget-subcribe {
+    margin: 0px;
+  }
+  .tf-item-detail-inner,
+  .content-detail,
+  .action-box .action-box-inner .group-btn,
+  .action-box .action-box-inner .content,
+  .action-box .action-box-inner .title {
+    margin-left: 0;
+  }
+  .tf-item-detail-image .countdown-inner {
+    min-width: 95%;
+  }
+  .detail-inner {
+    margin-right: 0px;
+  }
+  .detail-inner .post-navigator li {
+    max-width: 48%;
+  }
+  .content-detail .contact-infor .contact-infor-box {
+    width: calc(100% - 30px);
+    margin-bottom: 20px;
+  }
+  .content-detail .contact-infor .contact-infor-box:last-child {
+    margin-left: 30px;
+    margin-right: 0;
+  }
+  .tf-item-detail-image img,
+  .team-details .slider-item img {
+    width: 100%;
+  }
+  .tf-about.style-2 .tf-heading {
+    padding-right: 0;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  header #site-header-inner .header-right .tf-button, header #site-header-inner .header-right .user, header #site-header-inner .header-right .mode-switch {
+    margin-right: 10px;
+  }
+  header #site-header-inner .header-right .tf-button.connect {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  header #site-header-inner .header-right .tf-button.discord {
+    display: none;
+  }
+  .sign-in-form {
+    width: 100%;
+    margin-left: 0;
+  }
+  .tf-work.style-2 {
+    padding: 30px 20px;
+  }
+  .countdown.style-2 .countdown__item {
+    margin-right: 11px;
+    padding-right: 15px;
+  }
+  .tf-slider-item .content-inner .heading .animationtext {
+    display: block;
+    margin-left: -15px;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .tf-roadmap-style-thumb .content-rm-thumb {
+    padding: 30px;
+  }
+  .tf-roadmap-style-thumb .content-rm-thumb .content-left {
+    width: 60%;
+  }
+  .tf-roadmap-style-thumb .content-rm-thumb .content-right {
+    margin-left: 30px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .tf-slider-item {
+    padding-top: 0;
+    padding-bottom: 100px;
+  }
+  .tf-slider-item .image img {
+    width: 95%;
+  }
+  .tf-slider-item .image img:nth-child(2) {
+    display: none;
+  }
+  .tf-slider-item.style-2 {
+    padding: 120px 0 0px 0px;
+  }
+  .tf-slider-item.style-3 .image .img-1, .tf-slider-item.style-3 .image .img-2 {
+    display: none;
+  }
+  .mobile-button {
+    display: block;
+  }
+  header #site-header-inner {
+    padding: 15px 0;
+  }
+  header #site-header-inner .header-right .mode-switch {
+    margin-right: 50px;
+  }
+  .footer .widget {
+    margin-bottom: 60px;
+  }
+  .tf-item-detail-image,
+  .team-details,
+  .detail-inner {
+    margin-bottom: 60px;
+  }
+  .content-detail .social-item {
+    padding-bottom: 60px;
+  }
+  .tf-about.style-2 .tf-heading {
+    margin-top: 0;
+  }
+  .tf-about.style-2 .tf-button {
+    margin-bottom: 60px;
+  }
+  .tf-roadmap.style2 {
+    width: 100%;
+  }
+  .tf-roadmap.style2 .roadmap-box-2 {
+    max-width: 250px;
+  }
+  .tf-roadmap.style2 .roadmap-box-2 .shape-circle {
+    width: 54%;
+  }
+  .tf-roadmap.style2 .roadmap-box-2 .shape-circle svg {
+    position: absolute;
+    width: 100%;
+  }
+  .footer.style-2 .bottom .content-left img {
+    margin-right: 20px;
+  }
+  .footer.style-2 .bottom {
+    display: block;
+    text-align: center;
+  }
+  .footer.style-2 .bottom .content-left, .footer.style-2 .bottom .menu-bottom {
+    justify-content: center;
+  }
+  .footer.style-2 .bottom .menu-bottom li {
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 830px) {
+  .tf-slider-item.style-3 .image,
+  .tf-slider-item .image {
+    display: none;
+  }
+  .tf-slider-item.style-3 .content-inner,
+  .tf-slider-item .content-inner {
+    width: 100%;
+    margin-right: -35px;
+  }
+  .tf-slider-item .content-inner .heading,
+  .tf-slider-item .content-inner .sub-heading {
+    max-width: 100%;
+  }
+  .tf-slider-item.style-3 {
+    padding: 100px 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .modal .modal-dialog .modal-content {
+    margin: 0 15px;
+  }
+  .content-detail .social-item {
+    padding-bottom: 0px;
+  }
+  .mb60 {
+    margin-bottom: 50px;
+  }
+  .modal .modal-dialog .modal-content .modal-body {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .modal .modal-dialog .modal-content .modal-body .tf-wallet::after {
+    right: 15px;
+  }
+  .modal .modal-dialog .modal-content .modal-body .tf-wallet {
+    padding-left: 15px;
+  }
+  .tf-contact .image,
+  .tf-roadmap-style-thumb .content-rm-thumb .content-left {
+    margin-bottom: 50px;
+  }
+  .tf-roadmap-style-thumb .content-rm-thumb .content-right {
+    margin-left: 0;
+  }
+  .tf-roadmap-style-thumb .content-rm-thumb .content-left {
+    width: 100%;
+  }
+  .tf-section {
+    padding-bottom: 70px !important;
+  }
+  .tf-roadmap .sl-roadmap {
+    padding-bottom: 0px;
+  }
+  .team-page .tf-partner-sec,
+  .home-1 .tf-partner-sec {
+    padding-bottom: 100px !important;
+  }
+  .section-roadmap2 {
+    padding-top: 60px;
+    padding-bottom: 160px;
+  }
+  .home-2 .section-work {
+    padding: 60px 0 62px;
+  }
+  .tf-collection {
+    padding-bottom: 160px;
+  }
+  .sign-in-form.style2,
+  .sign-in-form {
+    padding-bottom: 60px;
+    margin-top: 60px;
+  }
+  .tf-roadmap-style-thumb .content-rm-thumb {
+    display: block;
+  }
+  .footer .bottom .social-item li {
+    margin-right: 30px;
+  }
+  .comming-soon.error-page .comming-soon-inner .title {
+    font-size: 75px;
+  }
+  .tf-infor-wrap .tf-infor {
+    width: calc(100% - 30px);
+    margin-bottom: 30px;
+  }
+  .comming-soon .comming-soon-inner {
+    padding: 0 15px;
+  }
+  .sidebar.sidebar-collection {
+    margin-bottom: 60px;
+  }
+  .tf-roadmap.style2 {
+    padding: 0;
+    display: block;
+  }
+  .tf-roadmap.style2::before, .tf-roadmap.style2::after {
+    display: none;
+  }
+  .tf-roadmap.style2 .roadmap-box-2 {
+    margin: 0 0 20px 0 !important;
+    width: 100%;
+    max-width: 100%;
+  }
+  .tf-roadmap.style2 .roadmap-box-2 .shape-circle {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .action-box .action-box-inner .group-btn .tf-button {
+    padding: 12px 24px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+  }
+  .action-box .action-box-inner {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .footer .bottom {
+    display: block;
+    text-align: center;
+  }
+  .footer .bottom .social-item {
+    justify-content: center;
+  }
+  .footer .bottom .copy-right {
+    margin-bottom: 10px;
+  }
+  .detail-inner #comments .comment-form fieldset {
+    width: 100%;
+    padding-right: 0;
+  }
+  .detail-inner #comments .comment-form fieldset:nth-child(2n) {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0;
+  }
+  .tf-contact .comment-form fieldset:first-child {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .tf-contact .comment-form fieldset:nth-child(2) {
+    width: calc(100% - 0px);
+  }
+  .comming-soon .comming-soon-inner .title {
+    font-size: 40px;
+    letter-spacing: 0;
+  }
+  .countdown .countdown__item {
+    margin-right: 13px;
+  }
+  .countdown .countdown__item .countdown__value {
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+  }
+  .countdown.style-2 .countdown__value {
+    width: unset;
+    height: unset;
+  }
+  .comming-soon .comming-soon-inner .social-item {
+    flex-wrap: wrap;
+  }
+  .comming-soon .comming-soon-inner .social-item li {
+    margin-bottom: 20px;
+  }
+  .comming-soon .comming-soon-inner .group-btn .tf-button {
+    margin-right: 4px;
+  }
+  .tf-item-detail-inner .infor-item-wrap .infor-item-box {
+    width: calc(50% - 16px);
+  }
+  .tf-item-detail-inner .group-btn .group-2 {
+    margin-right: -20px;
+  }
+  .tf-item-detail-inner .group-btn .tf-button.style-2 {
+    width: calc(50% - 20px);
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .tf-collection-inner .top-option {
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+  }
+  .tf-collection-inner .filter-content {
+    padding: 12px;
+  }
+  .tf-collection-inner .top-option .heading {
+    margin-bottom: 10px;
+  }
+  .tf-collection-inner .filter-content li a {
+    padding: 7px 6px;
+    margin-right: 5px;
+  }
+  .tf-collection-inner .filter-content li a i {
+    margin-left: 5px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .countdown .countdown__item .countdown__value {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+  }
+  .countdown .countdown__item .countdown__label {
+    font-size: 12px;
+  }
+}
+
+
+
+/*# sourceMappingURL=responsive.css.map */
+
+
+/* Base Styling for support us page*/
+
+
+.tf-contact {
+  padding: 40px 20px;
+  background-color: #0e1113;
+  color: #fff;
+}
+
+.tf-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.text_block {
+  width: 100%;
+ 
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: ;
+  
+  
+}
+
+.form-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.memb {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 6px;
+  border: none;
+  font-size: 13px;
+  background-color: #1d1f21;
+  color: #fff;
+}
+
+.memb::placeholder {
+  color: #aaa;
+}
+
+select.memb {
+  background-color: #1d1f21;
+  color: #fff;
+}
+
+
+/* Add this CSS in your component's style section or in a stylesheet */
+.comment-form .form-inner fieldset input,
+.comment-form .form-inner fieldset select {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  height: 60px;
+  border-radius: 10px;
+}
+
+/* Make sure all fieldsets have the same width */
+.comment-form .form-inner fieldset {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Submit Buttons */
+.btn-submit {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: space-around;
+  margin-top: 16px;
+  margin-left:60px;
+  
+}
+
+.tf-button {
+  background-color: transparent;
+  border: 2px solid #33adff;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.tf-button:hover {
+  background-color: #33adff;
+  color: #000;
+}
+
+
+/* QR Code Styling */
+.qr_code {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr_image {
+  width: 320px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-top: 60px;
+  margin-left: 0px;
+}
+
+/* Logo Slider (if not handled elsewhere) */
+.logo-slider-wrap {
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 20px 0;
+}
+
+.logo-slider-inner h3 {
+  display: inline-block;
+  margin-right: 32px;
+  font-size: 1.5rem;
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+/* -------------------
+   Responsive Styling
+--------------------- */
+
+/* Tablet-specific styles (typically 768px to 1024px) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Form container adjustments */
+  .tf-contact .tf-container {
+    padding: 0 15px;
+    margin-right: -200px !important; /* Override the large margin-right */
+    
+  }
+  
+  /* Form layout adjustments 
+  Sixe of ladt three text boxes*/
+  .comment-form .form-inner {
+    display: flex;
+    flex-direction: column;
+    width: 658px;
+    padding-left: 0 !important; /* Remove left padding */
+    gap: 15px !important;
+  }
+  
+  /* Make all form inputs consistent */
+  .comment-form .form-inner fieldset {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .comment-form .form-inner fieldset input,
+  .comment-form .form-inner fieldset select {
+    width: 100%;
+    height: 55px;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+  
+  /* Adjust QR code positioning */
+  .qr_code {
+    padding: 100px !important;
+    margin-top: 20px;
+    margin-right: 490px;
+    text-align: center;
+    width:100%
+  }
+  
+  .qr_image {
+    max-width: 800px;
+    margin-right: 170px;
+  }
+  
+  /* Button adjustments */
+  .btn-submit {
+    display: flex;
+    flex-direction: row;
+    gap:-20px !important;
+    width: 100%;
+    
+  }
+  
+  .btn-submit .tf-button {
+    
+    max-width: 150px;
+    margin-left: -300px !important;
+  }
+  
+  /* Status alerts */
+  .alert {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    text-align: center;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  /* Logo slider adjustments */
+  .logo-slider-wrap {
+    padding: 20px 0;
+  }
+  
+  .logo-slider-inner h3 {
+    font-size: 18px;
+  }
+}
+
+/* For smaller tablets and large phones in landscape */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .comment-form .form-inner {
+    padding-left: 0 !important;
+  }
+  
+  .tf-contact .tf-container {
+    margin-right: 0 !important;
+  }
+  
+  .btn-submit .tf-button {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  /* Consistent form field sizing for all devices */
+.comment-form .form-inner fieldset {
+  width: 100%;
+  margin-bottom: 15px;
+  margin-left: 2000px;
+}
+
+.comment-form .form-inner fieldset input,
+.comment-form .form-inner fieldset select {
+  width: 100%;
+  box-sizing: border-box;
+  height: 60px;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 10px 15px;
+  background-color: #2a2a2a;
+  color: #fff;
+  border: none;
+  
+}
+
+/* Specifically target the email input */
+#Email {
+  width: 100%;
+  max-width: none;
+}
+
+/* Specifically target the name input */
+#Name {
+  width: 100%;
+  max-width: none;
+}
+
+/* Fix for dropdown appearance */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  padding-right: 30px;
+}
+
+
+}
+
+
+/* Desktops (min-width: 1024px) */
+@media screen and (min-width: 1024px) {
+  
+
+  .text_block {
+    flex: 1;
+    margin-left: 90px;
+  }
+
+  .qr_code {
+    flex-shrink: 0;
+    margin-top: 0;
+    margin-left: 200px;
+  }
+
+  .form-inner {
+    max-width: 100%;
+  }
+
+  .tf-contact {
+    padding: 60px 0 100px;
+  }
+  
+  .tf-contact .tf-heading {
+    margin-bottom: 59px;
+  }
+  
+  .tf-contact .tf-heading .heading {
+    margin-bottom: 6px;
+  }
+  
+  .tf-contact .tf-heading .sub-heading {
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--primary-color2);
+  }
+  
+  .tf-contact .comment-form .form-inner {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .tf-contact .comment-form fieldset {
+    margin-bottom: 20px;
+    width: 650px;
+    
+  }
+  
+  .tf-contact .comment-form fieldset:first-child {
+    width: 655px;
+    margin-right: 20px;
+  }
+  
+  .tf-contact .comment-form fieldset:nth-child(2) {
+    width: 655px;
+  }
+  
+  .tf-contact .comment-form .form-select {
+    position: relative;
+    
+  }
+  
+  .tf-contact .comment-form .form-select i {
+    position: absolute;
+    top: 20px;
+    right: 23px;
+    color: var(--primary-color8);
+    font-size: 10px;
+    
+  }
+  
+  .tf-contact .comment-form .btn-submit {
+    text-align: center;
+  }
+  
+  .tf-contact .comment-form .btn-submit button {
+    padding: 10px 34px;
+    color: var(--primary-color3);
+  }
+  .style-2{
+    margin-right:-10px;
+  }
+  .memb {
+    width: 2000px;
+    padding: 14px 16px;
+    border-radius: 6px;
+    border: none;
+    font-size: 13px;
+    background-color: #1d1f21;
+    color: #fff;
+  }
+
+  .qr_image{
+    
+    width:100%
+  }
+
+  .btn-submit{
+    margin-left: -10px;
+  }
+}
+@media (max-width: 480px) {
+  .qr_image {
+    
+    margin-left: 0px;
+  }
+
+ 
+  .btn-submit {
+      display: flex;
+      flex-direction: column;    /* Stack vertically */
+      align-items: flex-start;   /* Align buttons to the left */
+      gap: 26px;
+      margin-top: 10px;
+      margin-left: 2px;        /* Optional: add left padding */
+    }
+
+    .btn-submit button {
+      width: 190px;
+    }
+  
+  
+  }
+
+/*CSS FOR SUAS 25*/
+/* Base styling for the drone animation container */
+
+/* Ensure container stays visible during scroll */
+[ref="containerRef"] {
+  position: relative !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Keep drone components visible during scroll */
+[ref="droneRef"] [ref] {
+  opacity: 1 !important;
+  visibility: visible !important;
+  backface-visibility: hidden;
+  will-change: opacity;
+}
+
+/* Add hardware acceleration without affecting positioning */
+[ref="droneRef"] [ref] img {
+  transition: opacity 0.3s ease;
+}
+/* Responsive styling for different screen sizes */
+@media screen and (max-width: 1024px) {
+  /* For tablets */
+  [ref="containerRef"] {
+    height: 70vh !important;
+  }
+  
+  [ref="droneRef"] {
+    width: 500px !important;
+    height: 350px !important;
+    top: 25% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* For small tablets */
+  [ref="containerRef"] {
+    height: 60vh !important;
+  }
+  
+  [ref="droneRef"] {
+    width: 400px !important;
+    height: 300px !important;
+    transform: scale(0.85) translateX(-50%) !important;
+    left: 50% !important;
+  }
+  
+  /* Adjust the scroll height for smaller screens */
+  .w-full.bg-slate-100 {
+    min-height: 150vh !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* For mobile phones */
+  [ref="containerRef"] {
+    height: 50vh !important;
+  }
+  
+  [ref="droneRef"] {
+    width: 320px !important;
+    height: 250px !important;
+    transform: scale(1) translateX(-50%) !important; /* Changed from -80% to -50% */
+    left: 30% !important; /* Changed from -90% to 30% to add padding to the right */
+    top: -90% !important;
+    padding-right: 40px !important; /* Added padding to the right */
+  }
+  
+  /* Scale down image sizes for mobile */
+  [ref] img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Adjust the scroll height for mobile screens */
+  .w-full.bg-slate-100 {
+    min-height: 120vh !important;
+  }
+}
+
+/* Navigation bar responsive styling */
+.navigation-bar {
+  width: 100%;
+  padding: 1rem;
+  background-color: #121212;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #feecec;
+  font-weight: 500;
+  padding: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links li.active a {
+  color: #e4ec3f;
+  border-bottom: 2px solid #3B82F6;
+}
+
+.nav-links li a:hover {
+  color: #e4ec3f;
+}
+
+/* Responsive navigation */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav-links {
+    gap: 0.5rem;
+    justify-content: space-around;
+  }
+  
+  .nav-links li a {
+    font-size: 0.9rem;
+    padding: 0.3rem;
+  }
+}
+
+/* Additional styles to ensure GSAP animations work properly on mobile */
+@media (hover: none) and (pointer: coarse) {
+  /* Helps with touch devices */
+  .w-full.bg-slate-100 {
+    touch-action: pan-y;
+  }
+}
+
+/* Fix for iOS Safari issues with fixed positioning */
+@supports (-webkit-touch-callout: none) {
+  [ref="containerRef"] {
+    position: absolute !important;
+  }
+}
+
+/* Ensure GSAP scroll animations work properly */
+html, body {
+  overscroll-behavior-y: none;
+}
+
+/* Fix for GSAP ScrollTrigger animations disappearing */
+.gsap-marker-scroller-start, .gsap-marker-scroller-end, 
+.gsap-marker-start, .gsap-marker-end {
+  display: none !important;
+}
+
+/* Ensure drone components don't get clipped during animation */
+.drone-container {
+  min-height: 500px;
+}
+
+/* Prevent flickering during scroll */
+.drone-container * {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+[ref="droneRef"] [ref] img {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 1 !important;
+  transition: opacity 0.3s ease;
+}
+/*Marker CSS for Suas 25 */
+@media screen and (max-width: 1024px) {
+  
+  .marker-gps1 { top: -8px; left: 24px; }
+  .marker-gps2 { top: 0; left: -380px; }
+  .marker-battery1 { top: 25%; left: -95px; }
+  .marker-battery2 { top: 25%; left: 45px; }
+  .marker-topplate { top: 25%; left: 80px; }
+  .marker-pixhawk { top: -2px; left: -120px; }
+  .marker-pixhawkpanel { top: 25%; left: 48px; }
+  .marker-jetsonnano { top: 25%; left: 44px; }
+  .marker-pdb { top: 25%; left: -40px; }
+  .marker-bottompanel { top: 25%; left: 80px; }
+  .marker-leftboom1,
+  .marker-leftboom2 { top: 25%; left: 72px; }
+  .marker-rightboom1,
+  .marker-rightboom2 { top: 25%; left: -230px; }
+  .marker-camera { top: 55%; left: -10px; }
+  .marker-payload { top: 28px; left: -40px; }
+  .marker-leftlanding,
+  .marker-rightlanding { top: 35%; left: -70px; }
+  .marker-bullet { top: 25%; left: 32px; }
+  .marker-landinggearend1,
+  .marker-landinggearend2 { top: 25%; left: 20px; }
+  .marker-rightmotor1 { top: 30%; left: 114px; }
+  .marker-rightmotor2 { top: 45%; left: 120px; }
+  .marker-leftmotor1 { top: 35%; left: -30px; }
+  .marker-leftmotor2 { top: 25%; left: -30px; }
+
+}
+
+/* Mobile styles */
+@media screen and (max-width: 767px) {
+  .marker-gps1 { top: -6px; left: 18px; }
+  .marker-gps2 { top: 0; left: 18px; }
+  .marker-battery1 { top: 25%; left: -54px; }
+  .marker-battery2 { top: 25%; left: 29px; }
+  .marker-topplate { top: 25%; left: 60px; }
+  .marker-pixhawk { top: -1px; left: 24px; }
+  .marker-pixhawkpanel { top: 25%; left: 36px; }
+  .marker-jetsonnano { top: 25%; left: -52px; }
+  .marker-pdb { top: 25%; left: 30px; }
+  .marker-bottompanel { top: 25%; left: 60px; }
+  .marker-leftboom1,
+  .marker-leftboom2 { top: 25%; left: 54px; }
+  .marker-rightboom1,
+  .marker-rightboom2 { top: 25%; left: -175px; }
+  .marker-camera { top: 25%; left: -54px; }
+  .marker-payload { top: 51px; left: 30px; }
+  .marker-leftlanding,
+  .marker-rightlanding { top: 25%; left: 54px; }
+  .marker-bullet { top: 25%; left: 40px; }
+  .marker-landinggearend1,
+  .marker-landinggearend2 { top: 25%; left: 15px; }
+  .marker-rightmotor1,
+  .marker-rightmotor2 { top: 25%; left: 85px; }
+  .marker-leftmotor1,
+  .marker-leftmotor2 { top: 25%; left: -6px; }
+}
+
+/* Extra small devices */
+@media screen and (max-width: 480px) {
+  .marker {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+    z-index: 1000 !important;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+    
+  /* Direction variants - make sure flex-direction is being respected */
+  .marker-right {
+    flex-direction: row; /* Dot - line - label (pointing right) */
+  }
+    
+  .marker-left {
+    flex-direction: row-reverse; /* Label - line - dot (pointing left) */
+  }
+    
+  /* Core marker elements */
+  .dot {
+    width: 12px;
+    height: 12px;
+    min-width: 12px; /* Prevent shrinking */
+    min-height: 12px; /* Prevent shrinking */
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  }
+    
+  .line {
+    width: 40px; /* Horizontal line length */
+    min-width: 40px; /* Prevent shrinking */
+    height: 2px;
+    background-color: white;
+    z-index: 200;
+  }
+    
+  .marker-right .line {
+    margin-left: 0;
+    margin-right: 4px;
+  }
+    
+  .marker-left .line {
+    margin-left: 4px;
+    margin-right: 0;
+  }
+    
+  .label {
+    background-color: rgba(32, 31, 31, 0.7);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    font-weight: 500;
+    z-index: 310 !important;
+  }
+  .marker{
+    z-index: 200;
+  }
+  .marker-leftmobile {
+    flex-direction: row-reverse; /* Label - line - dot (pointing left) */
+  }
+  .markermobile-right{
+    flex-direction: row;
+  }
+  .marker-gps1 { top: -5px; left: 15px; }
+  .marker-gps2 { top: 0; left: 15px; opacity:0}
+  .marker-battery1 { top: 25%; left: -45px;opacity:0 }
+  .marker-battery2 { top: 25%; left: 24px; }
+  .marker-topplate { top: 25%; left: 50px; }
+  .marker-pixhawk { top: -1px; left: 25px; }
+  .marker-pixhawkpanel { top: 25%; left: 30px; }
+  .marker-jetsonnano { top: 5%; left: -103px;}
+  .marker-pdb { top: 5%; left: -50px; }
+  .marker-bottompanel { top: 25%; left: 50px; }
+  .marker-leftboom1,
+  .marker-leftboom2 { top: 25%; left: 45px; }
+  .marker-rightboom1,
+  .marker-rightboom2 { top: 25%; left: -145px; }
+  .marker-camera { top: 25%; left: -13px; }
+  .marker-payload { top: 40%; left: -35px; }
+  .marker-leftlanding,
+  .marker-rightlanding { top: 25%; left: 45px; }
+  .marker-bullet { top: 45%; left: -30px; }
+  .marker-landinggearend1,
+  .marker-landinggearend2 { top: 25%; left: 13px; }
+  .marker-rightmotor1,
+  .marker-rightmotor2 { top: 25%; left: 71px; opacity:0}
+  .marker-leftmotor1 { top: -55%; left: 80px; }
+  .marker-leftmotor2 { top: 65%; left: 65px; }
+  .marker-leftlanding {top: 45%; left: -90px;}
+
+  
+
+  .leftlanding-line{
+    width: 20px !important;
+  }
+
+  .Jetson-line .line{
+    width:20px !important;}
+
+    .special-marker {
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      justify-content: flex-start !important;
+    }
+    
+    
+    .special-marker.marker-left .line {
+      width: 2px !important;
+      min-width: 2px !important;
+      height: 40px !important;
+      min-height: 40px !important;
+      margin-right: 3px;
+    }
+    
+    
+    .special-marker.marker-right .line {
+      width: 2px !important;
+      min-width: 2px !important;
+      height: 20px !important;
+      min-height: 20px !important;
+      margin-left:4px;
+      
+    }
+    .special-markertop {
+      flex-direction: column-reverse !important;
+      align-items: center !important;
+    }
+    
+    .special-markertop.marker-leftmotor1 .line {
+      width: 2px !important;
+      min-width: 2px !important;
+      height: 40px !important;
+      min-height: 40px !important;
+      margin-right: 2px;
+    }
+    
+    .marker-leftmobile .marker-jetsonnano{
+      flex-direction: row-reverse; 
+    }
+    
+}
+
+/*Responsive css for Suas page */
+@media (max-width: 768px) {
+  .Suas-content-image {
+    max-width: 45%;
+    height: 130px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Suas-content-image {
+    max-width: 400px;
+    height: 150px;
+  }
+}
